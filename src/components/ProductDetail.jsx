@@ -120,7 +120,7 @@ const ProductDetail = () => {
         <div className="contact-container">
           <h2>Interested in this Product?</h2>
           <p>Fill out the form below to inquire about {product.product}</p>
-          <form action="https://formspree.io/f/myzebybd" method="POST">
+          <form action="https://formspree.io/f/xovwqykb" method="POST">
             <input type="hidden" name="product" value={product.product} />
             <input type="hidden" name="product_id" value={product.id} />
 
