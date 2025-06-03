@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "product": "Follibrace Drops",
+    "category": "Drops",
+    "helps_in": "Hairfall, Grey hairs, Bald Patches",
+    "indication": "Drops prevent hair fall, itching of scalp, thinning of hair, early greying of hairs and bald patches on scalp.",
+    "composition": "Alfalfa 3X, Jaborandi 3X, Lycopodium 3X, Ustilago Maydis 3X, Kali Phosphoricum 3X, Acid Phosphoricum 3X, Wiesbaden 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/follibrace.jpg"
+  },
+  {
+    "id": 2,
+    "product": "Sinoheal Drops",
+    "category": "Drops",
+    "helps_in": "Sinusitis, Chronic Coryza, Polyps, Adenoids",
+    "indication": "For acute or chronic cold, catarrh, paranasal inflammation, blocked nose and defective sense of smell.",
+    "composition": "Hydrastis Can 3X, Pulsatilla Nig 3X, Arsenicum Album 3X, Kali Bichromicum 3X, Calcarea Carb 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/sinoheal.jpg"
+  },
+  {
+    "id": 3,
+    "product": "Pilefix Drops",
+    "category": "Drops",
+    "helps_in": "Piles, Fissure",
+    "indication": "Anal fissure, hemorrhoids associated with itching, pain and bleeding, and anal eczema.",
+    "composition": "Aesculus Hipp. 3X, Paeonia Off. 3X, Sulphur 3X, Graphites 3X, Hamamelis Vir 3X, Lycopodium Clav. 3X, Collinsonia Can 3X, Kali Carb. 3X, Acidum Nit. 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/pilefix.jpg"
+  },
+  {
+    "id": 4,
+    "product": "Dermoheal Drops",
+    "category": "Drops",
+    "helps_in": "Eczema, Dermatitis, Skin Infection",
+    "indication": "Eczema, Carbuncles, Dermatitis, Rashes & skin allergies.",
+    "composition": "Graphites 12X, Berberis Aquifolium 6X, Borax 12X, Chrysarobinum 12X, Gun Powder 12X, Vinca Minor 6X, Viola Odorata 6X, Skookumchuck 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/dermoheal.jpg"
+  },
+  {
+    "id": 5,
+    "product": "Stressfree Drops",
+    "category": "Drops",
+    "helps_in": "Anxiety, Stress & Tension, Disturbed Sleep",
+    "indication": "Irritability, Confusion, Anxiety, Fatigue, Restless Sleep, Repeatedly going over thoughts.",
+    "composition": "Eschscholtzia Californica Q, Lupulus Humulus Q, Passiflora Incarnata Q, Zincum Metallicum 6X, Kali Phosphoricum 3X, Ignatia Amara 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/stressfree.jpg"
+  },
+  {
+    "id": 6,
+    "product": "Wipestone Drops",
+    "category": "Drops",
+    "helps_in": "Kidney Stone, Renal Colic Pain, Urinary Tract Infection",
+    "indication": "Helps in kidney stone, Renal colic pain, Urinary Tract infection.",
+    "composition": "Berberis Vulgaris Q, Sarsaparilla Q, Ocimum Canum, Pareira Brava Q, Dioscorea Villosa Q, Hydrangea Arborescens Q",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/wipestone.jpg"
+  },
+  {
+    "id": 7,
+    "product": "Oviheal Drops",
+    "category": "Drops",
+    "helps_in": "Ovary Cysts, Irregular Menses, Painful Menses",
+    "indication": "Cyst formations on the ovaries, ovarian tumours, polycystic ovarian syndrome, Dull, aching or sudden, sharp pain in lower abdomen, Irregular menstrual periods, Pain during intercourse or bowel movements.",
+    "composition": "Lachesis 6, Apis Mellifica 3X, Cimicifuga Racemosa 3X, Pulsatilla Nigricans 3X, Naja Tripudians 6, Magnesia Phosphorica 6",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/oviheal.jpg"
+  },
+  {
+    "id": 8,
+    "product": "Tumoheal Drops",
+    "category": "Drops",
+    "helps_in": "Benign Tumours, Glandular Swellings, Lumps & Nodules",
+    "indication": "Helps in all hard, benign tumours, fibromas, cysts and Glandular swellings.",
+    "composition": "Conium Maculatum 3X, Baryta Carbonica 3X, Scrophularia Nodosa 2X, Carbo Animalis 3X, Acidum Lacticum 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/tumoheal.jpg"
+  },
+  {
+    "id": 9,
+    "product": "Allerzee Drops",
+    "category": "Drops",
+    "helps_in": "Anti Allergic, Hay Fever, Improves Immunity",
+    "indication": "Relieves symptoms of allergies and hay fever (Allergic Rhinitis), Blocks allergic reaction to allergens. Improves resistance against allergens. Reduces susceptibility to colds, sinusitis, flu.",
+    "composition": "Histaminum 6X, Euphrasia Officinalis 3X, Allium Cepa 6X, Ambrosia Artemisia 6X, Natrum Muriaticum 6X, Sabadilla 6X, Solidago Virgaurea 6X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/allerzee.jpg"
+  },
+  {
+    "id": 10,
+    "product": "Fevoheal Drops",
+    "category": "Drops",
+    "helps_in": "Viral Infection, Acute & Chronic Fever",
+    "indication": "All kinds of acute & chronic fever like dengue, malaria, typhoid and viral infections",
+    "composition": "Gelsemium Sempervirens 3X, Eupatorium Perfoliatum 3X, Belladonna 3X, Bryonia Alba 3X, Ocimum Sanctum Q, Eucalyptus Globulus Q, Tinospora Cordifolia Q, Swertia Chirata 3X, Baptisia Tinctoria 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/fevoheal.jpg"
+  },
+  {
+    "id": 11,
+    "product": "Fungoheal Drops",
+    "category": "Drops",
+    "helps_in": "Fungal Infection of Skin, Nails & Hair",
+    "indication": "Fungal infections including ringworm, jock itch, athlete's foot, white flaky skin on hands or feet, thrush in throat, soreness, earache with ear itch, white discoloration under fingernails, vaginal yeast or other fungal skin infections.",
+    "composition": "Acidum Benzoicum Q, Apis Mellifica 3X, Graphites 3X, Kali Iodatum 3X, Mezereum 3X, Petroleum 3X, Sepia 3X, Silicea 3X, Sulphur 3X, Thuja Occidentalis 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/fungoheal.jpg"
+  },
+  {
+    "id": 12,
+    "product": "Reglow Drops",
+    "category": "Drops",
+    "helps_in": "Oleum Santali & Berberis Aquifolium for Skin Glow",
+    "indication": "For Black Discolouration of Skin & Face. All kinds of Acne & Scars.",
+    "composition": "Berberis Aquifolium Q, Trichosanthus D. Q, Oleum Santali Q, Curcuma Longa Q, Hygrophila Spinosa Q",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/reglow.jpg"
+  },
+  {
+    "id": 13,
+    "product": "Warteez Drops",
+    "category": "Drops",
+    "helps_in": "Warts, Skin Tag & Corn",
+    "indication": "Effective for all types of warts, skin tags and corns.",
+    "composition": "Acidum Nitricum 3X, Antimonium Crudum 3X, Causticum Hahnemanni 3X, Solanum Dulcamara 3X, Ruta Graveolens 3X, Silicium 3X, Delphinum Staphysagria 3X, Thuja Occidentalis 3X",
+    "available_size": { "size": "30ml", "price": 180 },
+    "image": "/src/assets/warteez.jpg"
+  },
+  {
+    "id": 14,
+    "product": "Justika Cough Syrup",
+    "category": "Cough Syrup",
+    "helps_in": "Dry, Irritating, Congestive Cough without Drowsiness",
+    "indication": "Ideal tonic for spasmodic cough, whooping cough, symptoms of respiratory infections, cold, and smoking-related cough.",
+    "composition": "Belladonna Q, Bryonia Album Q, Ipecacuanha Q, Drosera Rotundifolia Q, Senega Q, Justicia Adhatoda Q, Ocimum Sanctum Q, Mentha Piperita Q, Ammonium Muriaticum 1X, Ephedrinum Muriaticum 1X",
+    "available_size": { "size": "100ml", "price": 130 },
+    "image": "/src/assets/justika.jpg"
+  },
+  {
+    "id": 15,
+    "product": "Skiwell Syrup",
+    "category": "Syrup",
+    "helps_in": "Acne, Dermatitis, Skin Allergy, Blood Purifier",
+    "indication": "A safe blood purifier against seasonal infections. Useful in pimples, acne, pustules, scabies and psoriasis. Improves septic condition of wounds, boils, ulcers. Helps maintain healthy immune system.",
+    "composition": "Berberis Aquifolium Q, Sarsaparilla Q, Sulphur 2X, Phytolacca Decandra Q, Echinacea Angustifolia Q, Azadirachta Indica Q, Tinospora Cordifolia Q, Gentiana Chirata Q, Gentiana Lutea Q",
+    "available_size": [
+      { "size": "100ml", "price": 130 },
+      { "size": "450ml", "price": 350 }
+    ],
+    "image": "/src/assets/skiwell.jpg"
+  },
+  {
+    "id": 16,
+    "product": "Kalmegh Syrup",
+    "category": "Syrup",
+    "helps_in": "Improve Appetite, Digestion & Liver Function",
+    "indication": "Ideal for catarrhal & congested liver, jaundice, and associated liver dysfunction. Helps control bile secretion.",
+    "composition": "Andrographis Paniculata Q, Chamomilla Q, Chelidonium Majus Q, Cina Q, Carica Papaya Q, Carduus Marianus Q, Hydrastis Canadensis Q, Lycopodium Q, Nux Vomica Q",
+    "available_size": [
+      { "size": "100ml", "price": 130 },
+      { "size": "200ml", "price": 210 },
+      { "size": "450ml", "price": 350 }
+    ],
+    "image": "/src/assets/kalmegh.jpg"
+  },
+  {
+    "id": 17,
+    "product": "Rheumoheal Syrup",
+    "category": "Syrup",
+    "helps_in": "Arthritis, Shoulder Pain, Knee Pain, Spondylitis, Joint Pain",
+    "indication": "Relieves acute and chronic muscular or articular pain like gout, lumbago, bursitis, sciatica, bone or tendon injuries, bruises, sprains, strains, stiff joints, and backache.",
+    "composition": "Acid Benz 3X, Colchicum 3X, Dulcamara 3X, Ledum Pal 3X, Natrum Salicylicum 3X, Rhus Tox 3X, Arnica Montana 4X, Gelsemium 3X, Rhododendron 3X, Ruta Graveolens 3X",
+    "available_size": [
+      { "size": "100ml", "price": 130 },
+      { "size": "200ml", "price": 210 },
+      { "size": "450ml", "price": 350 }
+    ],
+    "image": "/src/assets/rheumoheal.jpg"
+  },
+  {
+    "id": 18,
+    "product": "Acidoheal Syrup",
+    "category": "Syrup",
+    "helps_in": "Heartburn, Acidity, Gastritis & Peptic Ulcers",
+    "indication": "Gives instant relief in sour eructation, chest burning, indigestion, gas, acidity, loss of appetite, and acidic belching.",
+    "composition": "Alumina Silicata Q, Bellaforma Q, Carica Papaya Q, Colocynthis Q, Lycopodium Clavatum Q, Nux Vomica Q",
+    "available_size": [
+      { "size": "100ml", "price": 130 },
+      { "size": "200ml", "price": 210 },
+      { "size": "450ml", "price": 350 }
+    ],
+    "image": "/src/assets/acidoheal.jpg"
+  }
+]
