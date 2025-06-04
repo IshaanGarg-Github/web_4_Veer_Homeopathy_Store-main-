@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
 import CTAButton from "../hooks/ctaBtn";
+import HomoCTABtn from "../hooks/HomoCTABtn"
 import { useNavigate } from "react-router-dom";
 import productData from "../productDetails.json";
 
@@ -31,6 +32,7 @@ import skiwell from "../assets/skiwell.jpg";
 import kalmegh from "../assets/kalmegh.jpg";
 import rheumoheal from "../assets/rheumoheal.jpg";
 import acidoheal from "../assets/acidoheal.jpg";
+import deseasesTreated from "../assets/Diseases_treated.jpg"
 
 // Create an image mapping object
 const imageMap = {
@@ -183,6 +185,18 @@ const Home = () => {
           <div className="swiper-button-prev"></div>
           <div className="swiper-pagination"></div>
         </Swiper>
+      </section>
+
+      <section className="deseasesTreated">
+        <div className="left">
+          <img src={deseasesTreated} alt="Deseases that can be Treated" />
+        </div>
+
+        <div className="right">
+          <h1>Deseases that can be Treated</h1>
+          <p>Diseases that can be treated with Holistic medicine or so-called alternative medicine belong to practically all aspect of medicine including cardiology, surgery, ENT, OB-GYM, Pulmonology, Cardiology etc..</p>
+          <HomoCTABtn></HomoCTABtn>
+        </div>
       </section>
     </div>
   );

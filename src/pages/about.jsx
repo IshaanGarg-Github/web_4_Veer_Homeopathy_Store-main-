@@ -1,4 +1,4 @@
-import logoPic from '../assets/logo-pic.jpg';
+import logoPic from "../assets/logo-pic.jpg";
 
 const about = () => {
   return (
@@ -16,8 +16,8 @@ const about = () => {
             <h2>Our Story</h2>
             <p>
               Founded with a vision to bring natural healing to everyone, we
-              have been at the forefront of homeopathic medicine for over two
-              decades. Our journey began with a simple belief: that nature
+              have been at the forefront of homeopathic medicine for over few
+              years. Our journey began with a simple belief: that nature
               provides the best remedies for our health challenges.
             </p>
             <p>

@@ -282,7 +282,7 @@ nav {
   font-size: 0.9rem;
 }
 
-.testimonials {
+/* .testimonials {
   width: 100%;
   min-height: 70vh;
   background: var(--background-light);
@@ -363,7 +363,46 @@ nav {
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+} */
+
+.deseasesTreated {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 4rem 5vw 4rem;
+  background-color: #F7F7F5;
+  flex-direction: row;
 }
+
+.deseasesTreated .left {
+  width: 45vw;
+  height: 100%;
+}
+
+.deseasesTreated .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.deseasesTreated .right {
+  padding: 4rem 5vw;
+
+}
+
+.deseasesTreated .right h1 {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
+.deseasesTreated .right p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+
 
 footer {
   background: #2c3e50;
@@ -522,6 +561,22 @@ footer {
 
   .social-links {
     justify-content: center;
+  }
+
+  .deseasesTreated {
+    flex-direction: column;
+  }
+
+  .deseasesTreated .left {
+    width: 100%;
+  }
+
+  .deseasesTreated .right h1 {
+    font-size: 1.8rem;
+  }
+
+  .deseasesTreated .right p {
+    font-size: 1rem;
   }
 }
 
