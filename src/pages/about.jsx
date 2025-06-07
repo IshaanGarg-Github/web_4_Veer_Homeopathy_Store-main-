@@ -14,7 +14,7 @@ const about = () => {
         <div class="container">
           <div class="story-content">
             <h2>Our Story</h2>
-            <p>
+            {/* <p>
               Founded with a vision to bring natural healing to everyone, we
               have been at the forefront of homeopathic medicine for over few
               years. Our journey began with a simple belief: that nature
@@ -24,6 +24,18 @@ const about = () => {
               Today, we continue to uphold this belief while combining
               traditional wisdom with modern scientific research to create
               effective, natural solutions for your health and wellness needs.
+            </p> */}
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam laborum debitis eum, similique corrupti nam assumenda,
+              nihil illum voluptatem laudantium recusandae? Consectetur est
+              porro velit dolorum aliquam? Vitae quibusdam similique debitis?
+              Totam iste placeat reiciendis, assumenda sed quas maxime. Earum?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              blanditiis, voluptates iusto ab culpa adipisci dolor modi aliquam
+              assumenda id!
             </p>
           </div>
           <div class="story-image">
