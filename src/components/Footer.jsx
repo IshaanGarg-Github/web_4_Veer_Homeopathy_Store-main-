@@ -38,8 +38,16 @@ const Footer = () => {
           </p>
           <p>
             <i className="fas fa-map-marker-alt"></i> Opp. Durga Mandir, Samrat
-            Vikram Colony, Chilkana Road, Saharanpur
+            Vikram Colony, Chilkana Road, Saharanpur, 247001
           </p>
+          <div className="social-links">
+            <a href="https://www.instagram.com/veerhomeopathic01">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:veerhomeopathic@gmail.com" title="Send me an email">
+              <i className="fas fa-envelope"></i>
+            </a>
+          </div>
         </div>
         <div className="footer-section">
           <h3>Developer Info</h3>
