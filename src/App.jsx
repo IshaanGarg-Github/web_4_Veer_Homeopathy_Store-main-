@@ -10,10 +10,12 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./index.css";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
   return (
     <HashRouter>
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
