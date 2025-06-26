@@ -1,14 +1,24 @@
-// CustomRouter.jsx
 import React from "react";
-import {
-  BrowserRouter,
-  HashRouter
-} from "react-router-dom";
+import { HashRouter, BrowserRouter } from "react-router-dom";
 
-// Detect host and choose router
+const hostname = window.location.hostname;
+const pathname = window.location.pathname;
+
+// GitHub Pages → HashRouter
+const isGitHubPages = hostname.endsWith("github.io");
+
+// Local test for GitHub Pages structure (e.g. localhost:5173/web_.../)
+const isLocalGitHubStyle = hostname === "localhost" && pathname.includes("/web_");
+
+// Final router
+const useHashRouter = isGitHubPages || isLocalGitHubStyle;
+
 const CustomRouter = ({ children }) => {
-  const isGitHub = window.location.hostname.includes("github.io");
-  return isGitHub ? <HashRouter>{children}</HashRouter> : <BrowserRouter>{children}</BrowserRouter>;
+  return useHashRouter ? (
+    <HashRouter>{children}</HashRouter>
+  ) : (
+    <BrowserRouter>{children}</BrowserRouter>
+  );
 };
 
 export default CustomRouter;

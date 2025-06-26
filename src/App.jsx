@@ -6,7 +6,7 @@ import Home from "./pages/home";
 import Product from "./pages/product";
 import ProductList from "./components/ProductList.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
-import CustomRouter from "./CustomRouter";
+import CustomRouter from "./components/CustomRouter.jsx";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 const App = () => {
   return (
     <CustomRouter>
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
