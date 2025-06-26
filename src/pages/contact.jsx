@@ -37,7 +37,7 @@ const contact = () => {
       <section class="contact-section">
         <div class="contact-container">
           <h2>Contact Us</h2>
-          <form action="https://formspree.io/f/xovwqykb" method="POST">
+          <form action={import.meta.env.VITE_FORM_ACTION} method="POST">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" required />
 
