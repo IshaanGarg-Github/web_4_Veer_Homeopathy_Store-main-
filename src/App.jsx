@@ -6,7 +6,8 @@ import Home from "./pages/home";
 import Product from "./pages/product";
 import ProductList from "./components/ProductList.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import CustomRouter from "./CustomRouter";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./index.css";
@@ -14,8 +15,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
   return (
-    <HashRouter>
-      <ScrollToTop />
+    <CustomRouter>
       <Navbar />
       <main>
         <Routes>
@@ -29,7 +29,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
-    </HashRouter>
+    </CustomRouter>
   );
 };
 
