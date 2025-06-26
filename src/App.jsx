@@ -6,14 +6,14 @@ import Home from "./pages/home";
 import Product from "./pages/product";
 import ProductList from "./components/ProductList.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./index.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <main>
         <Routes>
@@ -27,7 +27,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
