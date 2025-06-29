@@ -10,6 +10,7 @@ import CustomRouter from "./components/CustomRouter.jsx";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 import "./index.css";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
@@ -30,6 +31,7 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
+      <WhatsAppFloat />
     </CustomRouter>
   );
 };
