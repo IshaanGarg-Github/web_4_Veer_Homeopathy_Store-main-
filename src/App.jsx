@@ -6,14 +6,18 @@ import Home from "./pages/home";
 import Product from "./pages/product";
 import ProductList from "./components/ProductList.jsx";
 import ProductDetail from "./components/ProductDetail.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CustomRouter from "./components/CustomRouter.jsx";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 import "./index.css";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <CustomRouter>
+      <ScrollToTop />
       <Navbar />
       <main>
         <Routes>
@@ -27,7 +31,8 @@ const App = () => {
         </Routes>
       </main>
       <Footer />
-    </BrowserRouter>
+      <WhatsAppFloat />
+    </CustomRouter>
   );
 };
 
