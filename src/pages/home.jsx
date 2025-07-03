@@ -89,7 +89,7 @@ const Home = () => {
             ref={(el) => el && textRef.current.push(el)}
             className="animate-text"
           >
-            Healthy Life is a key of,
+            Healthy Life is a key of
             <br />
             <span>Happy Life</span>
           </h2>
